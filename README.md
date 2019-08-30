@@ -1,6 +1,7 @@
 # HybriDroid
 
 This source codes are the demo for integrating the decompiled source codes of cfr, jadx and jdcore.
+The whole source code of HybriDroid will be uploaded until Septeber 15th.
 
 ## Requirement
 * ssdeep
