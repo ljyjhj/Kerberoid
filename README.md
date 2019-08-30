@@ -8,3 +8,7 @@ source code of HybriDroid will be uploaded until Septeber 15th.
 * joblib
 * numpy
 
+## Runing HybriDroid
+```
+python merge.py
+```
