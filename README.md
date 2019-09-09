@@ -11,11 +11,18 @@ The whole source code of HybriDroid will be uploaded until Septeber 30th.
 * joblib
 * numpy
 
+## Learning Model
+
+HybriDroid chooses the best candidate code block, which is similar to original source code, through a random forest classifier with the following three features. The first feature is the number of code lines making up each decompiled code block (e.g., function or class).  The second feature is the number of parameters used for a function. The third feature is the number of loop (e.g., for and while) or
+conditional instructions (e.g., if and switch). Based on those three features, we construct a classifier to recommend the best candidate block.
+
+Our random forest classifier model is uploaded in 
+
 ## Runing HybriDroid
 
-HybriDroid will be released as jar file, which gets apk files as input and generates decompiled source codes. The uploaded python file is a part of HybriDroid, which compares decompiled source codes from other decompilers and merges them.
+HybriDroid will be released as jar file, which gets apk files as input and generates decompiled source codes. We uploaded the sample source codes from each decompiler in apps folder. The uploaded python file is a part of HybriDroid, which compares decompiled source codes from other decompilers and merges them. Decompiling process, which means that apk files are changed to decompiled source codes, will be uploaded until above date.
 
-We uploaded the sample source codes from each decompiler in apps folder. If you run this code the final result will be made in apps/app_name/src_extract/src_merged_all folder.
+If you run this code the final result will be made in apps/app_name/src_extract/src_merged_all folder.
 ```
 python merge.py
 ```
