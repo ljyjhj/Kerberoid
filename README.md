@@ -12,6 +12,9 @@ The whole source code of HybriDroid will be uploaded until Septeber 30th.
 * numpy
 
 ## Runing HybriDroid
+
+HybriDroid will be released as jar file, which gets apk files as input and generates decompiled source codes. The uploaded python file is a part of HybriDroid, which compares decompiled source codes from other decompilers and merges them.
+
 We uploaded the sample source codes from each decompiler in apps folder. If you run this code the final result will be made in apps/app_name/src_extract/src_merged_all folder.
 ```
 python merge.py
