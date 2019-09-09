@@ -14,3 +14,6 @@ We uploaded the sample source codes from each decompiler in apps folder. If you 
 ```
 python merge.py
 ```
+
+## Contact
+If you experience any issues, you can ask for help by cantacing us at heejun970@gmail.com.
