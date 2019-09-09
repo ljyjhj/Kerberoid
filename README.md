@@ -16,4 +16,4 @@ python merge.py
 ```
 
 ## Contact
-If you experience any issues, you can ask for help by cantacing us at heejun970@gmail.com.
+If you experience any issues, you can ask for help by contacting us at heejun970@gmail.com.
