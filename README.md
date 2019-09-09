@@ -11,12 +11,12 @@ The whole source code of HybriDroid will be uploaded until Septeber 30th.
 * joblib
 * numpy
 
-## Learning Model
+## ML Model
 
 HybriDroid chooses the best candidate code block, which is similar to original source code, through a random forest classifier with the following three features. The first feature is the number of code lines making up each decompiled code block (e.g., function or class).  The second feature is the number of parameters used for a function. The third feature is the number of loop (e.g., for and while) or
 conditional instructions (e.g., if and switch). Based on those three features, we construct a classifier to recommend the best candidate block.
 
-Our random forest classifier model is uploaded in 
+Our random forest classifier model is uploaded in ml folder.
 
 ## Runing HybriDroid
 
