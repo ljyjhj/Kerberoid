@@ -3,7 +3,7 @@
 HybriDroid is a decompiler that properly merges partial results obtained from multiple decompilers into a final decompilation result to improve the coverage and the accuracy of decompiled codes. Now, HybriDroid is implemented with three decompilers(CFR, Jadx and JD Project).
 
 This source codes are the demo for integrating the decompiled source codes of cfr, jadx and jdcore.
-The whole source code of HybriDroid will be uploaded until Septeber 30th.
+The whole source code of HybriDroid will be uploaded until September 30th.
 
 ## Requirement
 * ssdeep
