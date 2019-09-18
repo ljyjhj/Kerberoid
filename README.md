@@ -1,4 +1,4 @@
-# Kerberoid Better Performance Decompiler
+# Kerberoid (for a Higher Coverage of Decompiled Codes)
 
 Kerberoid is a decompiler that properly merges partial results obtained from multiple decompilers into a final decompilation result to improve the coverage and the accuracy of decompiled codes. Now, Kerberoid is implemented with three decompilers(CFR, Jadx and JD Project).
 
